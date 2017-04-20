@@ -1,0 +1,14 @@
+/* CARGOS */
+0 - Diretoria
+1 - Eventos
+2 - Cases Práticos
+3 - Inteligência de Dados
+4 - Ensino
+5 - Marketing
+/* PROJETOS */
+0 - Nenhum
+1 - Desafio Brasil
+2 - Brasil Inovador
+3 - Hackgov
+
+INSERT INTO `equipe`(`projetoId`, `cargo`, `nome`, `texto`) VALUES (1,0,'','')

@@ -1,0 +1,363 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* STRUCTURES */
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    color: #03202B;
+    font-weight: 800;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #03202B;
+}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+/* HEADER */
+
+.menu ul li{
+    display: inline;
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a{
+    color: black;
+}
+
+.menu ul li a:hover{
+    color: skyblue;
+}
+
+.menu{
+    margin-top: 15px;
+}
+
+.menuHeader{
+    margin-bottom: -89px;
+}
+
+.menuHeader .background{
+    background-color: white;
+    padding 50px 0;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+    position: relative;
+    z-index: 20;
+    height:100px;
+    margin-bottom: -100px;
+}
+
+.menuHeader .content{
+    z-index: 40;
+    position: relative;
+    margin-bottom: -100px;
+}
+
+/* INDEX */
+
+.hero{
+    height: 100vh;
+    background-image: url(img/fgvfoto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .content{
+    font-weight: bolder;
+    font-size: 70px;
+    margin-top: 300px;
+    margin-left: 100px;
+    letter-spacing: 5px;
+}
+
+.hero .content .span{
+    color: #424242;
+    margin-top: -70px;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+.blogArea{
+    text-align: center;
+    background-color: slategrey;
+}
+
+.blog p{
+    padding: 140px 0;
+}
+.programas .container{
+    padding: 100px 0;
+    margin-bottom: 40px;
+}
+
+#brasilInovador{
+    background-image: url(img/inovador.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#processoSeletivo{
+    background-image: url(img/processo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#desafioBrasil{
+    background-image: url(img/desafio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.apresentacao{
+    background-color: #03202B;
+    color: #9D9FA0;
+    font-size: 25px;
+    font-weight: medium;
+    padding: 50px 0;
+    padding-top: 60px;
+    text-align: center;
+}
+
+/* BRASIL INOVADOR */
+
+.heroBrasil{
+    padding: 100px 0;
+    padding-left: 23%;
+    height: 100vh;
+    background-image: url(img/fgvsol.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroBrasil .content{
+    font-weight: bolder;
+    font-size: 160px;
+    padding-bottom: 70px;
+    letter-spacing: 5px;
+}
+
+.heroBrasil .content .span{
+    color: white;
+    margin-top: -130px;
+    font-size: 130px;
+    letter-spacing: 1px;
+}
+
+.projetos{
+    background-color: #074C66;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.projetos h1{
+    color: white;
+    font-weight: 800;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.projetos .button{
+    color: #074c66;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    width: 45%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.projetos .button:hover {
+    background-color: #2B689C;
+    color: white;
+}
+
+.projetos #bigButton{
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.projetos .button h2{
+    margin-top: 5px;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.resumoBrasil{
+    color: #003448;
+    font-size: 20px;
+}
+
+.resumoBrasil .container{
+    margin: 30px 0;
+}
+
+.resumoBrasil h1{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+/* DESAFIO BRASIL */
+
+.heroDesafio{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/desafioBrasil.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.desafioBrasil {
+    text-align: center;
+    color: #003448;
+    font-size: 20px;
+}
+
+.desafioBrasil p{
+    margin: 50px 0;
+}
+
+.desafioBrasil h1{
+    font-weight: bold;
+}
+
+.apoio{
+    background-image: url(img/fgvceri.png);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+/* QUEM SOMOS */
+
+.quemSomos{
+    background-color: #03202B;
+    color: white;
+    font-size: 20px;
+    font-weight: medium;
+    padding: 50px 0;
+    padding-top: 60px;
+    text-align: left;
+}
+
+.equipe{
+    margin: 50px 0;
+}
+
+.equipe .pessoa{
+    font-weight: normal;
+    text-align: center;
+}
+
+.equipe .pessoa .imagem{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.equipe .pessoa:hover{
+    font-weight: bold;
+}
+
+.equipe .qscontent{
+    margin-top: 30px;
+    background-color: #03202B;
+    color: white;
+    margin-bottom: 50px;
+    margin-top:30px;
+    height: 400px;
+    padding: 20px 0;
+}
+
+.equipe .qscontent h1{
+    color: white;
+    font-size: 26px;
+    letter-spacing: normal;
+    margin-bottom: -10px;
+}
+
+.equipe .line{
+    padding: 1px;
+    width: 100%;
+    background-color: #03202B;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.foto{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover; 
+}
+
+/* FOOTER */
+.informacoes{
+    text-align: center;
+}
+
+.informacoes h1{
+    color: #4BD1A0;
+    font-weight: bolder;
+    font-size: 35px;
+    letter-spacing: 7px;
+}
+
+.informacoes .container{
+    height: 400px;
+    padding: 100px 0;
+}
+
+.contato{
+    background-color: black;
+    color: #6F98A8;
+}
+
+.endereco{
+    background-color: #006990; 
+    color: #003448;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.mensagem h1{
+    color: black;
+    line-height: 1em;
+}
+
+.mensagem{
+    background-color: aquamarine;
+    color: black;
+    line-height: 1em;
+}
+
+#mapa{
+    height: 400px;
+}
+
+.footerLogo{
+    padding: 30px 0;
+    background-image: url(img/fgv.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
